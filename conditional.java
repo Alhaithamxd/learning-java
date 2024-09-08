@@ -1,5 +1,5 @@
 import java.util.*;
-public class javabasics {
+public class conditional {
     public static void main(String args[]){
         //if else and else if 
         if(3>2){
