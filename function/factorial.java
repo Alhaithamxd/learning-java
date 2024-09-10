@@ -6,7 +6,16 @@ public class factorial{
         }
         return f; 
     }
+    public static int BinCoeff(int n,int r){
+        int nfact=factorial(n);
+        int rfact=factorial(r);
+        int nrfact=factorial(n-r);
+        int coeff=nfact/(rfact*nrfact);
+        return coeff;
+    }
     public static void main(String args[]){
-        System.out.print(factorial(8));
+       // System.out.println(factorial(8));
+        System.out.print(BinCoeff(8,2));
+
     }
 }
