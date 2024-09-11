@@ -4,8 +4,11 @@ public class factorial{
         for(int i=1;i<=fact;i++){
             f*=i;
         }
+     
+     
         return f; 
     }
+    //binomial coeff.
     public static int BinCoeff(int n,int r){
         int nfact=factorial1(n);
         int rfact=factorial1(r);
