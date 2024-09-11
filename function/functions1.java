@@ -1,5 +1,5 @@
 import java.util.*;
-public class functions{
+public class functions1{
     public static void printhello(){
         System.out.print("hello world");
     }

@@ -1,5 +1,5 @@
 public class factorial{
-    public static int factorial(int fact){
+    public static int factorial1(int fact){
         int f =1;
         for(int i=1;i<=fact;i++){
             f*=i;
@@ -7,9 +7,9 @@ public class factorial{
         return f; 
     }
     public static int BinCoeff(int n,int r){
-        int nfact=factorial(n);
-        int rfact=factorial(r);
-        int nrfact=factorial(n-r);
+        int nfact=factorial1(n);
+        int rfact=factorial1(r);
+        int nrfact=factorial1(n-r);
         int coeff=nfact/(rfact*nrfact);
         return coeff;
     }
