@@ -13,7 +13,7 @@ public class repeat{
         return rep;
     }
     public static void main(String args[]){
-        int [] numbers={1,2,3,9,6,4,5};
+        int [] numbers={1,2,3,9,6,4,5,};
         System.out.print(repeated(numbers));
 
     }
