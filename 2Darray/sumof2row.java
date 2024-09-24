@@ -1,5 +1,5 @@
 public class sumof2row{
-    public static int SUM(int matrix[][]){
+    public static int SUM(int matrix[][]){//time complexity is O(n)
         int i =1;
         int sum=0;
         for(int j=0;j<matrix[0].length;j++){
