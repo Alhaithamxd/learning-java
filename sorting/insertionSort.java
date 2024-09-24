@@ -1,5 +1,6 @@
 public class insertionSort{
     public static void insSort(int numbers[]){
+        //Time complexity O(n^2)
         int n= numbers.length;
         for(int i=1;i<n;i++){
             int curr=numbers[i];

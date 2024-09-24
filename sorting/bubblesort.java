@@ -4,13 +4,9 @@ public class bubblesort{
         int n=numbers.length;
         int swap=0;
         for(int i=0;i<=n-2;i++){
-            swap+=1;
-
             for(int j=0;j<=n-2-i;j++){
-                swap+=1;
-                
                 if(numbers[j]>numbers[j+1]){
-                    //swap+=1;
+                    swap+=1;
                     int temp=numbers[j];
                     numbers[j]=numbers[j+1];
                     numbers[j+1]=temp;
