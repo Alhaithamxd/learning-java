@@ -5,7 +5,7 @@ public class MergeSort{
         }
         System.out.println();
     }
-    public static void MergeS(int arr[], int si, int ei){
+    public static void MergeS(int arr[], int si, int ei){//time complexity O(nlogn), space O(n)
         //base case
         if(si>=ei){
             return;
@@ -17,7 +17,7 @@ public class MergeSort{
         merge(arr, si,mid,ei);
 
     }
-    public static void merge(int arr[],int si , int mid,int ei){//time complexity O(nlogn), space O(n)
+    public static void merge(int arr[],int si , int mid,int ei){
         int temp[]=new int[ei-si+1];
         int i=si;//iterator for left part
         int j=mid+1;//iterator for right part
