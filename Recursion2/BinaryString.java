@@ -18,6 +18,6 @@ public class BinaryString{
 
     }
     public static void main(String args[]){
-        BinStr(10,0,"");
+        BinStr(2,0,"");
     }
 }
