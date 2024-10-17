@@ -4,7 +4,7 @@ public class bubblesort{
         int n=numbers.length;
         int swap=0;
         for(int i=0;i<=n-2;i++){
-            boolean swap1=false;
+            boolean swap1=false;//optimized bubblesort 
             for(int j=0;j<=n-2-i;j++){
                 
                 if(numbers[j]>numbers[j+1]){

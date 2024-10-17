@@ -1,7 +1,7 @@
 public class shortestpath{
     public static float shortPath(String dir){
         int x=0,y=0;
-        for(int i=0;i<dir.length();i++){
+        for(int i=0;i<dir.length();i++){//time complexity O(n)
             if(dir.charAt(i)=='N'){//north
                 y+=1;
             }else if(dir.charAt(i)=='E'){//east

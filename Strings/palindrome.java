@@ -1,6 +1,6 @@
 public class palindrome{
     public static boolean plad(String str){
-    for(int i=0;i<str.length()/2;i++){
+    for(int i=0;i<str.length()/2;i++){//time complexity O(n)
         if(str.charAt(i)!=str.charAt(str.length()-1-i)){//condition for not  a palindrome
             System.out.print("not a palindrome");
             return false;
